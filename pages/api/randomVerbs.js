@@ -1,5 +1,8 @@
 function randomVerbs(request, response){
+
     const humanDate = new Date();
+
+    response.setHeader('Cache-Control', 's-maxage=20, stale-while-revalidate');
 
     response.json([
         {currentDate: humanDate.toGMTString()},
