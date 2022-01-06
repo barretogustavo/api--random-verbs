@@ -2,7 +2,11 @@ function randomVerbs(request, response){
 
     const humanDate = new Date();
 
+    //Permite que qualquer pessoa faça requisição a esta API
+    response.setHeader("Access-Control-Allow-Origin", "*");
+    response.setHeader("Access-Control-Allow-Headers", "Origin, X-Request-Width, Content-Type, Accept")
     response.setHeader('Cache-Control', 's-maxage=20, stale-while-revalidate');
+
 
     response.json([
         {currentDate: humanDate.toGMTString()},
