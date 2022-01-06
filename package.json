@@ -1,0 +1,25 @@
+{
+  "name": "api--random-verbs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barretogustavo/api--random-verbs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barretogustavo/api--random-verbs/issues"
+  },
+  "homepage": "https://github.com/barretogustavo/api--random-verbs#readme",
+  "dependencies": {
+    "next": "^12.0.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
