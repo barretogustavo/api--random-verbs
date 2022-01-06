@@ -1,4 +1,4 @@
-function tempo(request, response){
+function randomVerbs(request, response){
     const humanDate = new Date();
 
     response.json([
@@ -16,4 +16,4 @@ function tempo(request, response){
     ]);
 }
 
-export default tempo;
+export default randomVerbs;
