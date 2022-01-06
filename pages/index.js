@@ -1,12 +1,11 @@
-import Link from "next/link";
+import MainComponent from "../components/Main";
+import FooterComponent from "../components/Footer";
 
 const Home = ()=>{
     return (
         <div>
-            <h1>Bem vindo a API</h1>
-            <Link href={{pathname:"api/randomVerbs"}}>
-                <a>visitar o endpoint da API</a>
-            </Link>
+            <MainComponent/>
+            <FooterComponent/>
         </div>
     );
 }
