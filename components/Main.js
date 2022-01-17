@@ -6,7 +6,7 @@ const Main = ()=>{
         <MainComponent>
             <h1>RANDOM VERBS GENERATION</h1>
             <h2>English to Portuguese</h2>
-            <Link href={{pathname:"api/randomVerbs"}}>
+            <Link href={{pathname:"api/randomverbs"}}>
                 <a>Visitar o endpoint da API</a>
             </Link>
         </MainComponent>
