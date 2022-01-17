@@ -23,28 +23,44 @@ const MainComponent = styled.div`
     flex-direction:column;
 
     h1{
-        font-size:50px;
-        font-weight:800;
-        text-align:center;
-        padding:0;
-        margin:0;
+        text-transform: uppercase;
+        text-align: center;
+        font: 70px 'Open Sans';
+        font-weight: bold;
+        margin: 0px 20px 0px 20px;
+        
+        /* gradiente */
+        background-image:linear-gradient(to right, #e3c924, #f38c19);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
     }
 
     h2{
-        font-size:20px;
+        font: 25px 'Open Sans';
+        color: #c4c5cf;
+        text-align: center;
     }
 
     a{
-        margin-top:50px;
-        color:#c0c0c0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+        height: 35px;
+        border-radius: 20px;
+        border: 0;
+        background-color: #f38c19;
+        color: #fff;
+        font-family: 'Open Sans';
+        font-size: 15px;
+        cursor: pointer;
+        padding:5px;
         text-decoration:none;
-        font-size:15px;
-        font-weight:300;
-        border:solid 1px #c0c0c0;
-        padding: 15px;
-        border-radius:20px;
+        margin-top:50px ;
     :hover{
-        color:#000;
+        background-color: #995d18;
     }
     }
 `;

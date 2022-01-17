@@ -30,6 +30,8 @@ const Footer = styled.div`
 
     h2{
         font-size:15px;
+        font-family: 'Open sans';
+        color: #292929;
     }
 
     a{
